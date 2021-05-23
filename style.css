@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+}
+.header-bg-image {
+  background-image: url(.//images/desktop/image-hero.jpg);
+  height: 442px;
+}
+.left-portion > .icon {
+  color: white;
+  font-size: 30px;
+  padding: 52px 0 0 129px;
+  font-family: "Alata";
+}
+.nav-bar .right-portion {
+  margin: -23px 0 0 0;
+}
+
+.nav-bar .right-portion ul {
+  color: #dbd3da;
+  font-size: 13px;
+  display: flex;
+  list-style: none;
+  padding: 0px 26px 316px 1000px;
+  font-family: "Alata", sans-serif;
+}
+.nav-bar .right-portion .a {
+  margin-right: 18px;
+  text-decoration: none;
+  margin-top: -27px;
+  color: #e8ffff;
+}
+.nav-bar .right-portion .b {
+  margin-right: 18px;
+  color: #e8ffff;
+  text-decoration: none;
+  margin-top: -27px;
+}
+.nav-bar .right-portion .c {
+  margin-right: 18px;
+  margin-top: -27px;
+  color: #e8ffff;
+  text-decoration: none;
+}
+.nav-bar .right-portion .d {
+  margin-right: 18px;
+  margin-top: -27px;
+  color: #e8ffff;
+  text-decoration: none;
+}
+.nav-bar .right-portion .e {
+  margin-right: 18px;
+  margin-top: -27px;
+  color: #e8ffff;
+  text-decoration: none;
+}
+.header-bg-image .trans-card {
+  border: 1px solid white;
+  margin: -207px 0 0 120px;
+
+  height: 146px;
+  width: 336px;
+}
+.header-bg-image .trans-card .text-inside {
+  margin: 13px 0 0 15px;
+  font-size: 39px;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.container-1 .img-text-wrapper {
+  height: 500px;
+  background-color: #ffffff;
+  width: 1000px;
+  margin: 103px 0 0 65px;
+  display: flex;
+}
+.container-1 .img-text-wrapper .img-wrapper {
+  height: 319px;
+  border: 1px solid white;
+  border-radius: 178px;
+}
+.img-wrapper:hover {
+  transition: 0.5s;
+  box-shadow: #929999;
+}
+.container-1 .img-text-wrapper .img-wrapper .image {
+  border-radius: 270px;
+}
+.container-1 .img-text-wrapper .text-wrapper {
+  margin: 76px 0px 0 13px;
+  width: 365px;
+}
+.container-1 .img-text-wrapper .text-wrapper {
+  font-family: "Josefin Sans";
+}
+.text-wrapper p {
+  font-family: "Alata";
+}
+
+.container-2 {
+  background-color: rgb(255, 255, 255);
+  width: 1200px;
+  height: 700px;
+  margin: 83px 0 0 0;
+}
+.container-2 h1 {
+  font-family: "Josefin Sans";
+  margin: 0 0 0 50px;
+}
+.container-2 .button {
+  margin: -32px 0 0 1199px;
+  background-color: white;
+}
+.btN {
+  background-color: white;
+  font-family: "Alata";
+  width: 89px;
+}
+.items-wrapper {
+}
+.items-wrapper .item-wrapper1 {
+  width: 256px;
+  color: white;
+  font-weight: bolder;
+  font-family: "Josefin Sans";
+  padding: 373px 0 0 0;
+  font-size: 29px;
+  margin: 40px 0 0 207px;
+  height: 436px;
+  background-color: black;
+  background-image: url(.//images/desktop/image-curiosity.jpg);
+}
+
+.items-wrapper .item-wrapper2 {
+  width: 256px;
+  color: white;
+  font-weight: bolder;
+  font-family: "Josefin Sans";
+  padding: 373px 0 0 0;
+  font-size: 29px;
+  margin: -434px 0 0 548px;
+  height: 436px;
+  background-color: black;
+  background-image: url(.//images/desktop/image-deep-earth.jpg);
+}
+.items-wrapper .item-wrapper3 {
+  width: 256px;
+  color: white;
+  font-weight: bolder;
+  font-family: "Josefin Sans";
+  padding: 373px 0 0 0;
+  font-size: 29px;
+  /* margin: -434px 0
+  
+   0 548px; */
+  margin: -436px 0 0 900px;
+  height: 436px;
+  background-color: black;
+  background-image: url(.//images/desktop/image-fisheye.jpg);
+}
+.items-wrapper .item-wrapper4 {
+  width: 256px;
+  color: white;
+  font-weight: bolder;
+  font-family: "Josefin Sans";
+  padding: 373px 0 0 0;
+  font-size: 29px;
+  margin: 31px 0 0 210px;
+  height: 436px;
+  background-color: black;
+  background-image: url(.//images/desktop/image-from-above.jpg);
+}
+.items-wrapper .item-wrapper5 {
+  width: 256px;
+  color: white;
+  font-weight: bolder;
+  font-family: "Josefin Sans";
+  padding: 373px 0 0 0;
+  font-size: 29px;
+  margin: -437px 0 0 550px;
+  height: 436px;
+  background-color: black;
+  background-image: url(./images/desktop/image-grid.jpg);
+}
+.items-wrapper .item-wrapper6 {
+  width: 256px;
+  color: white;
+  font-weight: bolder;
+  font-family: "Josefin Sans";
+  padding: 373px 0 0 0;
+
+  margin: -435px 0 0 903px;
+
+  font-size: 29px;
+
+  height: 436px;
+  background-color: black;
+  background-image: url(.//images/desktop/image-pocket-borealis.jpg);
+}
+.loop-footer {
+  margin: 300px 0 0 0px;
+  /* height: 182px; */
+  width: initial;
+}
+
+.loop-footer .footer {
+  height: 135px;
+  background-color: black;
+}
+.loop-footer .footer p {
+  margin: 0 0 0 106px;
+  padding: 34px 0 0 0;
+  font-size: 20px;
+  color: white;
+  font-family: "Alata";
+}
+.footer .elements ul {
+  color: #dbd3da;
+  font-size: 13px;
+  display: flex;
+  list-style: none;
+  display: flex;
+  font-family: "Alata", sans-serif;
+  margin: 20px 0 0 110px;
+}
+.footer .elements ul a {
+  margin: 0 15px 0px 0px;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+.right-elements {
+  margin: -66px 0 0px 1182px;
+}
+.right-elements .a {
+  margin: 0 11px 0 0;
+}
